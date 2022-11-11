@@ -106,3 +106,6 @@ ENV/
 
 # gitpod.yml
 .gitpod.yml
+
+# Neo4J credentials
+neo4j_demo/aura_db_info.txt

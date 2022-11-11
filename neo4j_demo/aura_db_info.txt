@@ -1,3 +1,11 @@
-Password:
+Username:
+neo4j
 
-Na4ZC4kQkray-o6juxD_XyGKsyGJo8FZV2vBWtGwXaI 
+Password:
+W1DpLVZhh3YovWlNGSY0AZ1TnfxUiDTYe3e7_dKnRY8
+
+Neo4J Version:
+5
+
+Connection URI:
+neo4j+s://b5a7ab02.databases.neo4j.io
