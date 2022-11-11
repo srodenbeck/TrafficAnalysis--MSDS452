@@ -7,4 +7,4 @@
 - Scroll down to `AuraDB Free`
     - Click Start Free
     - This will take you to the Neo4J AuraDB Console
-- Connect to the `Chicago Roadways` instance with the credentials in `neo4j_demo/aura_db_info.txt`
+- Connect to the `Chicago Roadways` instance with the credentials in `neo4j_demo/creds.txt`
