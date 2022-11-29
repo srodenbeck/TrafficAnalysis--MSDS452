@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<routes>
+	<trip id="taxi_1" type="veh_passenger" depart="0.00" departLane="best" from="26341799#0" to="24099007#0"/>
+</routes>
