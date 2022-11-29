@@ -109,3 +109,10 @@ ENV/
 
 # Neo4J credentials
 creds.txt
+
+#Chicago taxi trips raw data
+Taxi_Trips_-_2019.csv
+
+#osmnx cache
+cache/*
+cache
