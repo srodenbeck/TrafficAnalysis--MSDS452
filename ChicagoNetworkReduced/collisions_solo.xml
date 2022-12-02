@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-26 18:38:53 by Eclipse SUMO sumo Version v1_15_0+0450-e1b3cbf60b2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.passenger.trips.solo.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo_solo.xml"/>
+        <vehroute-output value="vehroutes_solo.xml"/>
+        <collision-output value="collisions_solo.xml"/>
+        <statistic-output value="sim_stats_out_solo.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <max-num-vehicles value="1"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

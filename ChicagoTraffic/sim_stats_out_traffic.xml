@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-26 19:29:55 by Eclipse SUMO GUI Version v1_15_0+0450-e1b3cbf60b2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/osm.net.xml"/>
+        <route-files value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/osm.passenger.trips.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/tripinfo_traffic.xml"/>
+        <vehroute-output value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/vehroutes_traffic.xml"/>
+        <collision-output value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/collisions_traffic.xml"/>
+        <statistic-output value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/sim_stats_out_traffic.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="/Users/mikesoukup/Desktop/NU MSDS/MSDS 452/TrafficAnalysis_MSDS452/sumo/tools/ChicagoTraffic/osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="46894" inserted="46894" running="0" waiting="0"/>
+    <teleports total="4597" jam="2112" yield="2028" wrongLane="456"/>
+    <safety collisions="1" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics count="46894" routeLength="8210.51" speed="7.00" duration="1759.11" waitingTime="1131.45" timeLoss="1422.12" departDelay="9.92" departDelayWaiting="-1.00" totalTravelTime="82491932.00" totalDepartDelay="465158.69"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
