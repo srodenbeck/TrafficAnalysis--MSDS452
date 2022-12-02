@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Paper:
-A summary of our work and results is in the file titled `Rodenbeck_Soukup MSDS 452 Final Project.pdf` in this repo. <br>
+A summary of our work and results is in the file titled `Rodenbeck_Soukup MSDS 452 Final Project.pdf` in this repo. <br> <br>
 It can also be found in Google Drive following this link: https://docs.google.com/document/d/1M4OTuoGm--kKGuJu3ZHv1JFsNMohcU871Xcj878ZUXo/edit?usp=share_link
 
 ## Links to large SUMO simulation configuration files:
